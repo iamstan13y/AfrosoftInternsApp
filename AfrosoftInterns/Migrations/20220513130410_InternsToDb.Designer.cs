@@ -9,15 +9,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AfrosoftInterns.Migrations
 {
     [DbContext(typeof(InternContext))]
-    [Migration("20210616100008_NewCreate.")]
-    partial class NewCreate
+    [Migration("20220513130410_InternsToDb")]
+    partial class InternsToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasAnnotation("ProductVersion", "3.1.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.7")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("AfrosoftInterns.Models.Intern", b =>
