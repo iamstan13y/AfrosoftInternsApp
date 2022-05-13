@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stanley Brikkz\\source\\repos\\AfrosoftInterns\\AfrosoftInterns\\AfrosoftInterns.csproj": {}
+    "C:\\Users\\Keith Stanley\\Documents\\GitHub\\AfrosoftInternsApp\\AfrosoftInterns\\AfrosoftInterns.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stanley Brikkz\\source\\repos\\AfrosoftInterns\\AfrosoftInterns\\AfrosoftInterns.csproj": {
+    "C:\\Users\\Keith Stanley\\Documents\\GitHub\\AfrosoftInternsApp\\AfrosoftInterns\\AfrosoftInterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stanley Brikkz\\source\\repos\\AfrosoftInterns\\AfrosoftInterns\\AfrosoftInterns.csproj",
+        "projectUniqueName": "C:\\Users\\Keith Stanley\\Documents\\GitHub\\AfrosoftInternsApp\\AfrosoftInterns\\AfrosoftInterns.csproj",
         "projectName": "AfrosoftInterns",
-        "projectPath": "C:\\Users\\Stanley Brikkz\\source\\repos\\AfrosoftInterns\\AfrosoftInterns\\AfrosoftInterns.csproj",
-        "packagesPath": "C:\\Users\\Stanley Brikkz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stanley Brikkz\\source\\repos\\AfrosoftInterns\\AfrosoftInterns\\obj\\",
+        "projectPath": "C:\\Users\\Keith Stanley\\Documents\\GitHub\\AfrosoftInternsApp\\AfrosoftInterns\\AfrosoftInterns.csproj",
+        "packagesPath": "C:\\Users\\Keith Stanley\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Keith Stanley\\Documents\\GitHub\\AfrosoftInternsApp\\AfrosoftInterns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Stanley Brikkz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Keith Stanley\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -28,7 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -71,6 +71,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -79,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
