@@ -1,10 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace AfrosoftInterns.Models
+﻿namespace AfrosoftInterns.Models
 {
-    public class InternContext:DbContext
+    public class InternContext : DbContext
     {
-        public InternContext(DbContextOptions<InternContext> options): base(options)
+        public InternContext(DbContextOptions<InternContext> options) : base(options)
         {
 
         }
