@@ -1,5 +1,3 @@
-using System;
-
 namespace AfrosoftInterns.Models
 {
     public class ErrorViewModel
