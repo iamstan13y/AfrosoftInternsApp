@@ -1,7 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using AfrosoftInterns.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using AfrosoftInterns.Models;
+using System.Threading.Tasks;
 
 namespace AfrosoftInterns.Controllers
 {
@@ -24,9 +23,9 @@ namespace AfrosoftInterns.Controllers
         public IActionResult AddOrEdit(int id = 0)
         {
             if (id == 0)
-            return View(new Intern());
+                return View(new Intern());
             else
-            return View(_context.Interns.Find(id));
+                return View(_context.Interns.Find(id));
         }
 
         // POST: Intern/Create
