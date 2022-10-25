@@ -8,7 +8,7 @@ namespace AfrosoftInterns.Models
     {
         [Key]
         public int Id { get; set; }
-        [Column(TypeName="nvarchar(250)")]
+        [Column(TypeName = "nvarchar(250)")]
         [Required(ErrorMessage = "Nyora zita rakakwana!")]
         [DisplayName("Full Name")]
         public string FullName { get; set; }
