@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-
-namespace AfrosoftInterns.Migrations
+﻿namespace AfrosoftInterns.Migrations
 {
     public partial class InternsToDb : Migration
     {
